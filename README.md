@@ -1,56 +1,39 @@
 # Gibson Obsidian
 
-Welcome to the **Gibson Obsidian**, a cutting-edge design inspired by the legacy of hackers and cyberpunk culture. This theme combines retro vibes with modern sophistication, perfect for anyone who lives and breathes the code.
+**Gibson Obsidian** is a retro-inspired hacker theme designed for Obsidian. It merges cyberpunk aesthetics with TrustedSec-inspired colors for a sleek, immersive dark mode experience. This theme is perfect for anyone who loves the feel of vintage terminals paired with modern functionality.
 
-## 🖤 Theme Highlights
-- **Signature Colors**: Featuring Gibson Green (`#14E21A`), Phantom Blue (`#1C47FF`), and Cereal Yellow (`#E8FD2E`) for a visually striking experience.
-- **Retro Hacker Aesthetic**: Reminiscent of green-on-black terminals with subtle glowing accents for a vintage feel.
-- **Gruvbox-Inspired Backgrounds**: Smooth grey tones that are easy on the eyes and perfect for long coding sessions.
-- **Dynamic Animations**: Subtle hover effects and terminal-style cursors to keep your workspace alive and responsive.
-- **Markdown & Code Highlights**: Tailored syntax highlighting that makes reading and writing Markdown or code feel like a breeze.
+## 🖤 Features
+- **Signature Colors**: Gibson Green (`#14E21A`), Phantom Blue (`#1C47FF`), and Cereal Yellow (`#E8FD2E`).
+- **Retro Aesthetics**: Inspired by green-on-black terminals with glowing hover effects.
+- **Dynamic Animations**: Hover effects, terminal-style blinking cursors, and smooth transitions.
+- **Markdown & Code Highlights**: Enhanced syntax highlighting for clarity and style.
 
-## ✨ Features
-- **Vibrant Accents**:
-  - Links in **Phantom Blue**.
-  - External links and active elements glow in **Cereal Yellow**.
-  - Headers and selection effects powered by **Gibson Green**.
-- **Interactive UI**:
-  - Glowing hover effects for links, icons, and navigation.
-  - Retro-styled scrollbars and dynamic active tab colors.
-- **Custom Syntax Highlighting**:
-  - Bold and vivid colors for variables, keywords, strings, and comments.
-- **Terminal Vibes**:
-  - A blinking green cursor and animated background scan mimic a retro hacker terminal.
+## ✨ Installation
+### Automatic Installation
+1. Go to **Settings > Appearance** in Obsidian.
+2. Scroll down to the **Community Themes** section.
+3. Search for "Gibson Obsidian" and click "Use" to apply the theme.
 
-## 🔧 Installation
-### For Obsidian
-1. Go to **Settings > Appearance > CSS Snippets**.
-2. Click "Manage" and open the snippets folder.
-3. Save the file `gibson-obsidian-theme.css` into the snippets folder.
-4. Toggle the theme on in the **CSS Snippets** section.
-
-### For Developers
-1. Clone this repository:
+### Manual Installation
+1. Download or clone this repository:
    ```bash
-   git clone https://github.com/your-repo/gibson-obsidian-theme.git
+   git clone https://github.com/your-repo/gibson-obsidian.git
    ```
-2. Copy `gibson-obsidian-theme.css` into your Obsidian snippets directory.
-3. Refresh Obsidian and enable the snippet.
+2. Add the whole `Gibson Obsidian` folder to your `.obsidian/themes/` folder.
+   - On most systems, the folder path is: `~/.obsidian/themes/`
+3. In Obsidian, go to **Settings > Appearance** and select **Gibson Obsidian** from the list of installed themes.
 
-## 🚀 Inspiration
-The **Gibson Obsidian Theme** is named after the legendary William Gibson, the father of cyberpunk, and reflects a dedication to cutting-edge design and functionality. This theme pays homage to the aesthetics of early hacking culture while blending it with modern, professional branding.
+## 🌐 Inspiration
+Named after William Gibson, the father of cyberpunk, **Gibson Obsidian** blends nostalgia with innovation. TrustedSec’s signature colors provide a touch of professionalism while honoring the aesthetics of early hacker culture.
 
-## 🛠️ Customization
-Want to tweak the theme? The CSS is fully modular and easy to edit. Play around with colors, animations, or add your own creative touches. The Gibson Obsidian color palette is included for easy reference:
+## 📜 License
+This theme is open source and available under the [MIT License](LICENSE). Feel free to tweak and share it!
 
-- **Gibson Green**: `#14E21A`
-- **Phantom Blue**: `#1C47FF`
-- **Cereal Yellow**: `#E8FD2E`
-- **Gray**: `#EDF1F3`
-
-## 🌐 Learn More
-Check out [TrustedSec](https://www.trustedsec.com) to see how innovation meets security. Combine style and functionality with the Gibson Obsidian Theme.
+## 📸 Screenshots
+![Screenshot 1](screenshot1.png)
+![Screenshot 2](screenshot2.png)
 
 ---
 
-### "The future is already here – it's just not evenly distributed." – William Gibson
+> "The future is already here – it's just not evenly distributed." – William Gibson
+
