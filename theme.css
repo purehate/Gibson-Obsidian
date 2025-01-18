@@ -1,0 +1,154 @@
+/* Gibson Obsidian */
+
+/* Theme Colors and Primary Variables */
+.theme-dark {
+  --background-primary: linear-gradient(135deg, #282828, #3c3836);
+  --background-primary-alt: #3c3836;
+  --background-secondary: linear-gradient(135deg, #3c3836, #504945);
+  --background-secondary-alt: #504945;
+
+  --text-normal: #eeeeee; /* Standard text color */
+  --text-muted: #cccccc; /* Muted text */
+  --text-faint: #cccccc; /* Faint text */
+  --text-accent: #14E21A; /* Accent text color */
+  --text-on-accent: #000000; /* Text on accent backgrounds */
+
+  --italic-color: #dddddd; /* Italic text */
+  --bold-color: #ffffff; /* Bold text */
+  --tag-color: #32e248; /* Tag background */
+  --code-normal: #a8c090; /* Code block text */
+
+  /* Links and Interactive Elements */
+  --link-color: linear-gradient(90deg, #1C47FF, #14E21A); /* Gradient for links */
+  --link-decoration: underline;
+  --link-decoration-thickness: 1px;
+  --link-external-color: #E8FD2E; /* External links */
+  --link-glow: 0 0 5px #14E21A, 0 0 10px #1C47FF; /* Link hover glow */
+
+  /* Text Selection */
+  --text-selection: #486e02; /* Highlighted text selection */
+
+  /* Headers */
+  --h1-color: #8aee8e;
+  --h2-color: #58e763;
+  --h3-color: #32e248;
+  --h4-color: #0d9e12;
+  --h5-color: #10c716;
+  --h6-color: #0a770d;
+
+  --inline-title-color: #14E21A; /* Inline titles */
+
+  /* Tabs */
+  --tab-font-weight: 900;
+  --tab-text-color-focused-active-current: #E8FD2E; /* Yellow for focused tabs */
+  --tab-text-weight-focused-active-current: 900;
+
+  /* Icons */
+  --icon-color-focused: #14E21A; /* Focused icon */
+  --icon-color-hover: #E8FD2E; /* Hover effect for icons */
+
+  /* Navigation Items */
+  --nav-item-color-hover: #E8FD2E;
+  --nav-item-color-active: #1C47FF; /* Active nav items */
+  --nav-item-size: var(--font-ui-medium);
+  --nav-item-weight: 500;
+  --nav-item-weight-active: 900;
+  --nav-item-background-active: #282828;
+  --nav-file-tag: #f4ec9e;
+  --nav-indentation-guide-color: #baf5bc;
+
+  /* Scrollbars */
+  --scrollbar-thumb-bg: #E8FD2E; /* Yellow scrollbar for visibility */
+
+  /* Indentation Guides */
+  --indentation-guide-color: #14E21A; /* Standard guide color */
+  --indentation-guide-color-active: #E8FD2E; /* Active guide */
+
+  /* Table */
+  --table-header-background: #3c3836; /* Header background */
+  --table-row-alt-background: #504945; /* Alternating row background */
+
+  /* Highlights */
+  --highlight-background: #1C47FF; /* Blue highlight */
+  --highlight-text: #E8FD2E; /* Yellow text on blue highlight */
+
+  /* Borders and Shadows */
+  --border-color: #14E21A; /* Border color */
+  --shadow-color: rgba(20, 226, 26, 0.3); /* Subtle shadow */
+
+  /* Cursor */
+  --cursor-color: #14E21A; /* Green blinking cursor */
+}
+
+/* Hover Effects */
+a:hover {
+  color: var(--link-color);
+  text-shadow: var(--link-glow);
+}
+
+.icon:hover {
+  filter: drop-shadow(0 0 5px #14E21A);
+}
+
+.nav-item-active {
+  background: #1C47FF;
+  color: #E8FD2E;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Card Styling */
+.card {
+  border: 1px solid var(--border-color);
+  box-shadow: 0 4px 10px var(--shadow-color);
+  border-radius: 5px;
+}
+
+/* Cursor Animation */
+textarea, input, .CodeMirror-cursor {
+  border-left: 2px solid var(--cursor-color);
+  animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* Syntax Highlighting */
+.cm-s-obsidian .cm-keyword { color: #1C47FF; font-weight: bold; }
+.cm-s-obsidian .cm-string { color: #E8FD2E; }
+.cm-s-obsidian .cm-comment { color: #7f8385; font-style: italic; }
+.cm-s-obsidian .cm-variable { color: #14E21A; }
+.cm-s-obsidian .cm-number { color: #a8c090; }
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #14E21A;
+  border-radius: 5px;
+  border: 2px solid #282828;
+}
+::-webkit-scrollbar-track {
+  background: #3c3836;
+}
+
+/* Header Hover Effects */
+h1:hover, h2:hover, h3:hover {
+  color: #14E21A;
+  text-shadow: 0 0 10px #1C47FF;
+}
+
+/* Modal Styling */
+.modal {
+  background: #3c3836;
+  border: 1px solid #14E21A;
+  box-shadow: 0 4px 10px rgba(20, 226, 26, 0.3);
+  color: #eeeeee;
+}
+
+.modal-header {
+  background: #1C47FF;
+  color: #E8FD2E;
+}
